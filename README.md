@@ -6,7 +6,7 @@
 ***
 
 
-- [x] learn github markdown
+- [x] learn github markdown (in progress)
 - [ ] make a better readme.md
 - [ ] make some concept arts and such
 - [ ] make a launcher
