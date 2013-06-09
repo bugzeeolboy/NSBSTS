@@ -1,4 +1,4 @@
-- [X] learn github markdown
+- [x] learn github markdown
 - [ ] make a better readme.md
 - [ ] make some concept arts and such
 - [ ] make a launcher
