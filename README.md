@@ -1,6 +1,6 @@
 # NSBSTS
-### Not Skype Because Skype Totally sucks
-#### I'll take it down if you ask me to
+### Not Skype Because Skype Totally Sucks
+#### I'll change the name if you want me to
 ##### Because I'm just fooling around
 
 ***
