@@ -2,7 +2,7 @@
 ### Not Skype Because Skype Totally Sucks
 #### I'll change the name if you want me to
 ##### Because I'm just fooling around
-
+[Concept Here](http://goo.gl/LbYkL "The Concept of NSBSTS")
 ***
 
 
