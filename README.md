@@ -16,3 +16,5 @@
 - [ ] Coffee break
 - [ ] take over the minds of children
 - [x] derp around and get nothing done
+
+NSBSTS IS NOT HELD RESPONSIBLE FOR ANY BRAIN DAMAGE AND- OR TUMORS GAINED BY THE USE OF THIS PRODUCT.
