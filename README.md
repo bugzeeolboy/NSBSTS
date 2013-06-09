@@ -13,3 +13,6 @@
 - [ ] work on making peer-to-peer login system and communications
 - [ ] make the peer-to-peer chat
 - [ ] make the peer-to-peer VoIP
+- [ ] Coffee break
+- [ ] take over the minds of children
+- [x] derp around and get nothing done
