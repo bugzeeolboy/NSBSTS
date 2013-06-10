@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-06-10T04:53:24
+# Project created by QtCreator 2013-06-10T06:33:24
 #
 #-------------------------------------------------
 
@@ -13,15 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        laucher.cpp
+        launcher.cpp \
+    buddylist.cpp
 
-HEADERS  += laucher.h
+HEADERS  += launcher.h \
+    buddylist.h
 
-FORMS    += laucher.ui
-
-OTHER_FILES += \
-    bgimg.jpg \
-    bgimg.png
+FORMS    += launcher.ui \
+    buddylist.ui
 
 RESOURCES += \
-    bg.qrc
+    resc.qrc
+
+OTHER_FILES +=

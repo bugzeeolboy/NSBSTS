@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bgimg.jpg</file>
+        <file>away.png</file>
+        <file>blink.png</file>
+        <file>call.png</file>
+        <file>default.png</file>
+        <file>dnd.png</file>
+        <file>neutral.png</file>
+        <file>ring.png</file>
+        <file>sleep.png</file>
+        <file>smile.png</file>
+        <file>stalker.png</file>
+        <file>unavailible.png</file>
+    </qresource>
+</RCC>

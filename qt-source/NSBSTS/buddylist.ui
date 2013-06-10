@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buddylist</class>
+ <widget class="QMainWindow" name="buddylist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>250</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>1050</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>NSBSTS Buddies</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="buddytab">
+       <attribute name="title">
+        <string>Buddy List</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <item>
+           <property name="text">
+            <string>skinken</string>
+           </property>
+           <property name="toolTip">
+            <string>[ i've been pooping aloooot ]</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resc.qrc">
+             <normaloff>:/images/neutral.png</normaloff>:/images/neutral.png</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>kirk</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resc.qrc">
+             <normaloff>:/images/dnd.png</normaloff>:/images/dnd.png</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Coldie</string>
+           </property>
+           <property name="toolTip">
+            <string>TEEHEE</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resc.qrc">
+             <normaloff>:/images/sleep.png</normaloff>:/images/sleep.png</iconset>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="recenttab">
+       <attribute name="title">
+        <string>Recent</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QListWidget" name="listWidget_2">
+          <item>
+           <property name="text">
+            <string>skinken [last 05:51]</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resc.qrc">
+             <normaloff>:/images/neutral.png</normaloff>:/images/neutral.png</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Coldie [last 6/2/13]</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resc.qrc">
+             <normaloff>:/images/sleep.png</normaloff>:/images/sleep.png</iconset>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="unreadtab">
+       <attribute name="title">
+        <string>Unread</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTreeWidget" name="treeWidget_3">
+          <column>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="font">
+            <font>
+             <kerning>false</kerning>
+            </font>
+           </property>
+          </column>
+          <item>
+           <property name="text">
+            <string>Unread Chats</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>[11:42] [skinken] look at this art i made its professional</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>[08:29] [kirk] TREVOR ANSWER</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>Unread File Transfers</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>[11:42] [skinken] [30KB] lolart.png</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>Unread Voicemail</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>[08:31] [kirk] [duration 00:14]</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>Buddy Requests</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>[06/02/13] [asneakydog] hey long time no see still play brick-force?</string>
+            </property>
+           </item>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>300</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Actions</string>
+    </property>
+    <widget class="QMenu" name="menuSet_Status">
+     <property name="title">
+      <string>Set Status</string>
+     </property>
+     <addaction name="actionLooking_To_Chat"/>
+     <addaction name="actionOnline_2"/>
+     <addaction name="actionAway_2"/>
+     <addaction name="separator"/>
+     <addaction name="actionDo_Not_Disturb"/>
+     <addaction name="actionUnavailible_2"/>
+     <addaction name="actionInvisible"/>
+    </widget>
+    <addaction name="menuSet_Status"/>
+    <addaction name="actionMy_Buddy_Code"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuBuddies">
+    <property name="title">
+     <string>Buddies</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuProfile">
+    <property name="title">
+     <string>Profile</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuBuddies"/>
+   <addaction name="menuProfile"/>
+   <addaction name="menuSettings"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit_NSBSTS">
+   <property name="text">
+    <string>Exit NSBSTS</string>
+   </property>
+  </action>
+  <action name="actionDerp">
+   <property name="text">
+    <string>Derp</string>
+   </property>
+  </action>
+  <action name="actionOnline">
+   <property name="text">
+    <string>Online</string>
+   </property>
+  </action>
+  <action name="actionLooking_to_Chat">
+   <property name="text">
+    <string>Looking to Chat</string>
+   </property>
+  </action>
+  <action name="actionAway">
+   <property name="text">
+    <string>Away</string>
+   </property>
+  </action>
+  <action name="actionUnavailible">
+   <property name="text">
+    <string>Unavailible</string>
+   </property>
+  </action>
+  <action name="actionOffline">
+   <property name="text">
+    <string>Do Not Disturb</string>
+   </property>
+  </action>
+  <action name="actionOffline_2">
+   <property name="text">
+    <string>Invisible</string>
+   </property>
+  </action>
+  <action name="actionLooking_To_Chat">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/smile.png</normaloff>:/images/smile.png</iconset>
+   </property>
+   <property name="text">
+    <string>Looking To Chat</string>
+   </property>
+  </action>
+  <action name="actionOnline_2">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/neutral.png</normaloff>:/images/neutral.png</iconset>
+   </property>
+   <property name="text">
+    <string>Online</string>
+   </property>
+  </action>
+  <action name="actionAway_2">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/away.png</normaloff>:/images/away.png</iconset>
+   </property>
+   <property name="text">
+    <string>Away</string>
+   </property>
+  </action>
+  <action name="actionDo_Not_Disturb">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/dnd.png</normaloff>:/images/dnd.png</iconset>
+   </property>
+   <property name="text">
+    <string>Do Not Disturb</string>
+   </property>
+  </action>
+  <action name="actionUnavailible_2">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/unavailible.png</normaloff>:/images/unavailible.png</iconset>
+   </property>
+   <property name="text">
+    <string>Unavailable</string>
+   </property>
+  </action>
+  <action name="actionInvisible">
+   <property name="icon">
+    <iconset resource="resc.qrc">
+     <normaloff>:/images/sleep.png</normaloff>:/images/sleep.png</iconset>
+   </property>
+   <property name="text">
+    <string>Invisible</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMy_Buddy_Code">
+   <property name="text">
+    <string>My Buddy Code</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
